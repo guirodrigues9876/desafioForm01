@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+    background: #535971;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* Essa propriedade coloca ele "embaixo" de todos os outros elementos na página. Como se fossem as layers de um photoshop */
+    z-index: -1;  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: #E5E5E5;
+
+    font-family: 'Poppins';
+    font-size: 14px;
+    color:#4E4958;
+}  
+
+.page{
+    width: 750px;
+    margin: auto;
+}
+
+header{
+
+    margin: 140px 0px 58px 0px;
+
+}
+
+header h1{
+    
+    height: 60px;
+    
+    font-family: 'Staatliches';
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+header p{
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+#my-form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    padding: 64px;
+    border-radius: 20px 20px 0px 0px;
+
+    background: #FFFFFF;
+}
+
+.fieldset-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+
+fieldset{
+    border: none;
+}
+
+.fieldset-wrapper legend2{
+    font-family: 'Staatliches';
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.fieldset-wrapper legend{
+    font-family: 'Staatliches';
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #535971;
+
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E6F0;
+
+}
+
+.col-name{
+    display: flex;
+    gap: 22px;
+}
+
+.col-name .input-wrapper{
+    width: 300px;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #4E4958;
+}
+
+.input-wrapper span{
+    color: #C1BCCC;
+    font-size: 12px;
+}
+
+.input-wrapper input{
+    height: 56px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #FAFAFC;
+}
+
+.col-data{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.cols-hour{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    align-content: center;
+
+    box-sizing: border-box;
+
+}
+
+
+.col-data >div:nth-child(1){
+    width: 300px;
+}
+
+.input-wrapper input[type=time]{
+    width: 140px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 100%;
+    height: 160px;
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+}
+
+footer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 608px;
+    height: 55.65px;
+
+    background: #FF5374;
+    border-radius: 20px;
+    border: none;
+
+    font-family: 'Staatliches';
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+footer button:hover{
+
+    background: #ff315a;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
