@@ -20,7 +20,7 @@
 
 ## 💻 Project
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/eZskP8fFULMzK9JckIcXUx/Stage-03---Formul%C3%A1rio-intermedi%C3%A1rio-(Copy)?node-id=0-1&t=K1XrPAzitg4FfxS5-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo
+You can preview the project layout [HERE](https://www.figma.com/file/eZskP8fFULMzK9JckIcXUx/Stage-03---Formul%C3%A1rio-intermedi%C3%A1rio-(Copy)?node-id=0-1&t=K1XrPAzitg4FfxS5-0).You must have an account at [Figma](https://figma.com) to access it.
 
 ## 📝 License
 <p align="center">
